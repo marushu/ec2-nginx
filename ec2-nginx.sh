@@ -1,7 +1,7 @@
 #!/bin/sh
 
 sudo /usr/sbin/usermod -s /bin/bash nginx;
-sudo passwd nginx;
+
 sudo /sbin/service monit stop;
 sudo /sbin/service nginx stop;
 sudo /sbin/service php-fpm stop;
